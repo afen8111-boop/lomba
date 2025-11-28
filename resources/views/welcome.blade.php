@@ -270,6 +270,9 @@
             </main>
         </div>
 
+        <div id="app"></div>
+        @vite('resources/js/app.jsx')
+
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
